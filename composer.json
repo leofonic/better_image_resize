@@ -1,0 +1,35 @@
+{
+    "name":        "zunderweb/oxid-better-image-resize",
+    "description": "OXID eShop: Resize images to fixed image ratio",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop"
+    ],
+    "homepage":    "https://www.zunderweb.de",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "zunderweb",
+            "email": "info@zunderweb.de"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "zunderweb/better_image_resize"
+        }
+    },
+    "require":     {
+    },
+    "autoload":    {
+        "psr-4": {
+            "zunderweb\\better_image_resize\\": "../../../source/modules/zunderweb/better_image_resize"
+        }
+    }
+}
+
+
